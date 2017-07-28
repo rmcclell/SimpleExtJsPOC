@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SimpleExtjsPoc",
+		"_postman_id": "5c4df361-6499-1f7c-e328-45513228b337",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ReadRosters",
+			"request": {
+				"url": "http://localhost:52948/api/roster/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"number\": 44,\n    \"playerName\": \"Tyler Anderson 2\",\n    \"pos\": \"SP/P\",\n    \"batArm\": \"L\",\n    \"throwArm\": \"L\",\n    \"height\": \"6' 3\\\"\",\n    \"weight\": 220,\n    \"age\": 27,\n    \"expirience\": 2,\n    \"birthplace\": \"Las Vegas,Nevada\",\n    \"college\": \"Oregon\",\n    \"salary\": 540000,\n    \"category\": \"Pitchers\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ReadRoster",
+			"request": {
+				"url": "http://localhost:52948/api/roster/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"number\": 44,\n    \"playerName\": \"Tyler Anderson 2\",\n    \"pos\": \"SP/P\",\n    \"batArm\": \"L\",\n    \"throwArm\": \"L\",\n    \"height\": \"6' 3\\\"\",\n    \"weight\": 220,\n    \"age\": 27,\n    \"expirience\": 2,\n    \"birthplace\": \"Las Vegas,Nevada\",\n    \"college\": \"Oregon\",\n    \"salary\": 540000,\n    \"category\": \"Pitchers\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateRoster",
+			"request": {
+				"url": "http://localhost:52948/api/roster/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"number\": 44,\n    \"playerName\": \"Tyler Anderson 2\",\n    \"pos\": \"SP/P\",\n    \"batArm\": \"L\",\n    \"throwArm\": \"L\",\n    \"height\": \"6' 3\\\"\",\n    \"weight\": 220,\n    \"age\": 27,\n    \"expirience\": 2,\n    \"birthplace\": \"Las Vegas,Nevada\",\n    \"college\": \"Oregon\",\n    \"salary\": 540000,\n    \"category\": \"Pitchers\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateRoster",
+			"request": {
+				"url": "http://localhost:52948/api/roster/1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\": 44,\n    \"playerName\": \"Created Tyler Anderson 2\",\n    \"pos\": \"SP/P\",\n    \"batArm\": \"L\",\n    \"throwArm\": \"L\",\n    \"height\": \"6' 3\\\"\",\n    \"weight\": 220,\n    \"age\": 27,\n    \"expirience\": 2,\n    \"birthplace\": \"Las Vegas,Nevada\",\n    \"college\": \"Oregon\",\n    \"salary\": 540000,\n    \"category\": \"Pitchers\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteRoster",
+			"request": {
+				"url": "http://localhost:52948/api/roster/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"number\": 44,\n    \"playerName\": \"Tyler Anderson 2\",\n    \"pos\": \"SP/P\",\n    \"batArm\": \"L\",\n    \"throwArm\": \"L\",\n    \"height\": \"6' 3\\\"\",\n    \"weight\": 220,\n    \"age\": 27,\n    \"expirience\": 2,\n    \"birthplace\": \"Las Vegas,Nevada\",\n    \"college\": \"Oregon\",\n    \"salary\": 540000,\n    \"category\": \"Pitchers\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
