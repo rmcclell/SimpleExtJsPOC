@@ -4,9 +4,9 @@
 This simple project was designed to quickly demo how to fully integrate Sencha ExtJs with backend technologies like Web API, entity framework, and SQL server while needing only minimal setup and configuration
 
 ## Prerequisites
-Visual Studio preferably 2017 version
-SQL Server Developer Edition
-Internet Access
+- Visual Studio preferably 2017 version
+- SQL Server Developer Edition
+- Internet Access
 
 ## Steps to start project up in IIS Express
 - Execute batch file under SimpleExtjsPoc\Utilities\Sql\ReloadData.bat
