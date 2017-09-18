@@ -1,4 +1,4 @@
-﻿Ext.define('App.model.Roster', {
+﻿Ext.define('RosterApp.model.Roster', {
     extend: 'Ext.data.Model',
     fields: [
         { type: 'int', name: 'id' },
@@ -19,7 +19,7 @@
     ],
     proxy: {
         type: 'rest',
-        url: window.location.href + '/api/Roster',
+        url: window.location.protocol + '//' + window.location.host + '/api/Roster',
         noCache: false,
         reader: { type: 'json' },
         writer: { type: 'json', allowSingle: true }

@@ -1,9 +1,9 @@
-﻿Ext.define('App.view.Viewport', {
+﻿Ext.define('RosterApp.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires: [
-        'App.model.Roster',
-        'App.store.Roster',
-        'App.view.Roster'
+        'RosterApp.model.Roster',
+        'RosterApp.store.Roster',
+        'RosterApp.view.Roster'
     ],
     layout: 'fit',
     items: [{ xtype: 'roster' }]

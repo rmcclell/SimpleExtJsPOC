@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -110,6 +111,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Global.asax" />
     <Content Include="Images\PlayerPics\1.png" />
     <Content Include="Images\PlayerPics\10.png" />
@@ -156,6 +159,14 @@
     <Content Include="App\store\Roster.js" />
     <Content Include="App\view\Roster.js" />
     <Content Include="App\view\Viewport.js" />
+    <Content Include="Scripts\jasmine\boot.js" />
+    <Content Include="Scripts\jasmine\console.js" />
+    <Content Include="Scripts\jasmine\jasmine-html.js" />
+    <Content Include="Scripts\jasmine\jasmine.js" />
+    <Content Include="UnitTests\Application.js" />
+    <Content Include="UnitTests\Index.html" />
+    <Content Include="UnitTests\spec\ExtJsTest.js" />
+    <Content Include="UnitTests\spec\Roster.js" />
     <Content Include="Utilities\Sql\CreateDb.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -214,6 +225,7 @@
     </Content>
     <Content Include="Index.cshtml" />
     <Content Include="Utilities\Sql\ReloadData.bat" />
+    <Content Include="UnitTests\mock\Roster.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

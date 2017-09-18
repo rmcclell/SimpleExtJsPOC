@@ -1,4 +1,4 @@
-﻿Ext.define('App.view.Roster', {
+﻿Ext.define('RosterApp.view.Roster', {
     extend: 'Ext.grid.Panel',
     title: 'Roster',
     alias: 'widget.roster',
@@ -36,7 +36,7 @@
         { width: 80, text: 'Height', dataIndex: 'height', style: 'text-align:right;', align: 'right', editor: { xtype: 'combo', store: ['5\' 0"', '5\' 1"', '5\' 2"', '5\' 3"', '5\' 4"', '5\' 5"', '5\' 6"', '5\' 7"', '5\' 8"', '5\' 9"', '5\' 10"', '5\' 11"', '6\' 0"', '6\' 1"', '6\' 2"', '6\' 3"', '6\' 4"', '6\' 5"', '6\' 6"', '6\' 7"', '6\' 8"', '6\' 9"', '6\' 10"', '6\' 11"'] }, filter: { type: 'list' } },
         { width: 85, text: 'Weight', dataIndex: 'weight', style: 'text-align:right;', align: 'right', editor: 'numberfield', filter: { type: 'number' } },
         { width: 65, text: 'Age', dataIndex: 'age', style: 'text-align:right;', align: 'right', editor: 'numberfield', filter: { type: 'number' } },
-        { width: 110, text: 'Experience', dataIndex: 'expirience', style: 'text-align:right;', align: 'right', editor: 'numberfield', filter: { type: 'number' } },
+        { width: 110, text: 'Experience', dataIndex: 'experience', style: 'text-align:right;', align: 'right', editor: 'numberfield', filter: { type: 'number' }, renderer: function (value) { return (value === 0) ? 'R' : value; } },
         { flex: 2, text: 'Birthplace', dataIndex: 'birthplace', editor: 'textfield', renderer: function (value) { return value.replace(',', ',<br>'); }, filter: { type: 'string' } },
         { flex: 1.5, text: 'College', dataIndex: 'college', editor: { xtype: 'combo', store: ['Connecticut', 'East Carolina', 'Evansville', 'Georgia Tech', 'Kentucky', 'LSU', 'None', 'Northeastern', 'Oklahoma', 'Oregon', 'Rollins', 'Southern Nevada CC', 'Texas Tech', 'UCLA', 'Virginia', 'Western Carolina'] }, filter: { type: 'list' } },
         { flex: 1.5, text: 'Salary', dataIndex: 'salary', style: 'text-align:right;', align: 'right', editor: 'numberfield', formatter: 'currency', filter: { type: 'number' } },

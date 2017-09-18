@@ -1,6 +1,7 @@
 ﻿Ext.application({
     name: 'RosterApp',
-    autoCreateViewport: true,
+    appFolder: '../App',
+    autoCreateViewport: false,
     controllers: [
         'RosterApp.controller.Roster'
     ],
