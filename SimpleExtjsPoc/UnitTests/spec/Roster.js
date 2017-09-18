@@ -1,6 +1,7 @@
 ﻿describe('Roster Assumptions', function () {
     var viewPort = null,
         grid = null,
+        addButton = null,
         data = null,
         store = null;
 
@@ -22,6 +23,7 @@
             success: function (response) {
                 data = Ext.decode(response.responseText);
                 store.loadRawData(data.input);
+                addButton = grid.down('button#add');
                 isDone();
             }
         });
@@ -71,4 +73,32 @@
 
         expect(Ext.encode(renderedData) === Ext.encode(data.output)).toBeTruthy();
     });
+
+    it('Roster View add new row', function () {
+        expect(addButton !== null).toBeTruthy();
+        expect(addButton.isVisible()).toBeTruthy();
+        addButton.fireEvent('click', addButton);
+        grid.editingPlugin.getEditor().form.setValues({
+            age: 30,
+            batArm: 'R',
+            birthplace: '',
+            category: 'Outfielders',
+            college: 'None',
+            experience: 10,
+            height: '5\' 10',
+            number: 27,
+            playerName: 'Babe Ruth',
+            pos: 'CF',
+            salary: 10000,
+            throwArm: 'R',
+            weight: 260
+        });
+
+        grid.editingPlugin.getEditor().form.updateRecord();
+        grid.fireEvent('edit', grid.editingPlugin.getEditor(), { record: grid.editingPlugin.getEditor().form.getRecord() });  
+
+        expect(store.getCount() === 29).toBeTruthy();
+    });
+
+
 });
