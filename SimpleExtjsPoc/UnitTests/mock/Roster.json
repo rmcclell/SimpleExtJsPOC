@@ -3,7 +3,7 @@
     {
       "id": 1,
       "number": 44,
-      "pictureUrl": "/Images/PlayerPics/1.png",
+      "pictureCls": "/Images/PlayerPics/1.png",
       "playerName": "Tyler Anderson",
       "pos": "SP/P",
       "batArm": "L",
@@ -20,7 +20,7 @@
     {
       "id": 2,
       "number": 35,
-      "pictureUrl": "/Images/PlayerPics/2.png",
+      "pictureCls": "/Images/PlayerPics/2.png",
       "playerName": "Chad Bettis",
       "pos": "SP/P",
       "batArm": "R",
@@ -37,7 +37,7 @@
     {
       "id": 3,
       "number": 32,
-      "pictureUrl": "/Images/PlayerPics/3.png",
+      "pictureCls": "/Images/PlayerPics/3.png",
       "playerName": "Tyler Chatwood",
       "pos": "SP/RP/P",
       "batArm": "R",
@@ -54,7 +54,7 @@
     {
       "id": 4,
       "number": 38,
-      "pictureUrl": "/Images/PlayerPics/4.png",
+      "pictureCls": "/Images/PlayerPics/4.png",
       "playerName": "Mike Dunn",
       "pos": "RP/P",
       "batArm": "L",
@@ -71,7 +71,7 @@
     {
       "id": 5,
       "number": 47,
-      "pictureUrl": "/Images/PlayerPics/5.png",
+      "pictureCls": "/Images/PlayerPics/5.png",
       "playerName": "Jairo Díaz",
       "pos": "RP/P",
       "batArm": "R",
@@ -88,7 +88,7 @@
     {
       "id": 6,
       "number": 31,
-      "pictureUrl": null,
+      "pictureCls": null,
       "playerName": "Kyle Freeland",
       "pos": "SP/P",
       "batArm": "L",
@@ -105,7 +105,7 @@
     {
       "id": 7,
       "number": 55,
-      "pictureUrl": "/Images/PlayerPics/7.png",
+      "pictureCls": "/Images/PlayerPics/7.png",
       "playerName": "Jon Gray",
       "pos": "SP/P",
       "batArm": "R",
@@ -122,7 +122,7 @@
     {
       "id": 8,
       "number": 34,
-      "pictureUrl": "/Images/PlayerPics/8.png",
+      "pictureCls": "/Images/PlayerPics/8.png",
       "playerName": "Jeff Hoffman",
       "pos": "SP/P",
       "batArm": "R",
@@ -139,7 +139,7 @@
     {
       "id": 9,
       "number": 56,
-      "pictureUrl": "/Images/PlayerPics/9.png",
+      "pictureCls": "/Images/PlayerPics/9.png",
       "playerName": "Greg Holland",
       "pos": "RP/P/CL",
       "batArm": "R",
@@ -156,7 +156,7 @@
     {
       "id": 10,
       "number": 24,
-      "pictureUrl": "/Images/PlayerPics/10.png",
+      "pictureCls": "/Images/PlayerPics/10.png",
       "playerName": "Jordan Lyles",
       "pos": "RP/SP/P",
       "batArm": "R",
@@ -173,7 +173,7 @@
     {
       "id": 11,
       "number": 51,
-      "pictureUrl": "/Images/PlayerPics/11.png",
+      "pictureCls": "/Images/PlayerPics/11.png",
       "playerName": "Jake McGee",
       "pos": "RP/P",
       "batArm": "L",
@@ -190,7 +190,7 @@
     {
       "id": 12,
       "number": 48,
-      "pictureUrl": "/Images/PlayerPics/12.png",
+      "pictureCls": "/Images/PlayerPics/12.png",
       "playerName": "German Márquez",
       "pos": "SP/P",
       "batArm": "R",
@@ -207,7 +207,7 @@
     {
       "id": 13,
       "number": 45,
-      "pictureUrl": "/Images/PlayerPics/13.png",
+      "pictureCls": "/Images/PlayerPics/13.png",
       "playerName": "Scott Oberg",
       "pos": "RP/P",
       "batArm": "R",
@@ -224,7 +224,7 @@
     {
       "id": 14,
       "number": 0,
-      "pictureUrl": "/Images/PlayerPics/14.png",
+      "pictureCls": "/Images/PlayerPics/14.png",
       "playerName": "Adam Ottavino",
       "pos": "RP/P",
       "batArm": "S",
@@ -241,7 +241,7 @@
     {
       "id": 15,
       "number": 52,
-      "pictureUrl": "/Images/PlayerPics/15.png",
+      "pictureCls": "/Images/PlayerPics/15.png",
       "playerName": "Chris Rusin",
       "pos": "RP/SP/P",
       "batArm": "L",
@@ -258,7 +258,7 @@
     {
       "id": 16,
       "number": 49,
-      "pictureUrl": "/Images/PlayerPics/16.png",
+      "pictureCls": "/Images/PlayerPics/16.png",
       "playerName": "Antonio Senzatela",
       "pos": "SP/P",
       "batArm": "R",
@@ -275,7 +275,7 @@
     {
       "id": 17,
       "number": 30,
-      "pictureUrl": "/Images/PlayerPics/17.png",
+      "pictureCls": "/Images/PlayerPics/17.png",
       "playerName": "Ryan Hanigan",
       "pos": "C",
       "batArm": "R",
@@ -292,7 +292,7 @@
     {
       "id": 18,
       "number": 14,
-      "pictureUrl": "/Images/PlayerPics/18.png",
+      "pictureCls": "/Images/PlayerPics/18.png",
       "playerName": "Tony Wolters",
       "pos": "C/2B/3B",
       "batArm": "L",
@@ -309,7 +309,7 @@
     {
       "id": 19,
       "number": 2,
-      "pictureUrl": "/Images/PlayerPics/19.png",
+      "pictureCls": "/Images/PlayerPics/19.png",
       "playerName": "Alexi Amarista",
       "pos": "SS/RF/2B/CF/LF/3B",
       "batArm": "L",
@@ -326,7 +326,7 @@
     {
       "id": 20,
       "number": 28,
-      "pictureUrl": "/Images/PlayerPics/20.png",
+      "pictureCls": "/Images/PlayerPics/20.png",
       "playerName": "Nolan Arenado",
       "pos": "3B",
       "batArm": "R",
@@ -343,7 +343,7 @@
     {
       "id": 21,
       "number": 9,
-      "pictureUrl": "/Images/PlayerPics/21.png",
+      "pictureCls": "/Images/PlayerPics/21.png",
       "playerName": "DJ LeMahieu",
       "pos": "2B/3B",
       "batArm": "R",
@@ -360,7 +360,7 @@
     {
       "id": 22,
       "number": 12,
-      "pictureUrl": "/Images/PlayerPics/22.png",
+      "pictureCls": "/Images/PlayerPics/22.png",
       "playerName": "Mark Reynolds",
       "pos": "1B/3B",
       "batArm": "R",
@@ -377,7 +377,7 @@
     {
       "id": 23,
       "number": 27,
-      "pictureUrl": "/Images/PlayerPics/23.png",
+      "pictureCls": "/Images/PlayerPics/23.png",
       "playerName": "Trevor Story",
       "pos": "SS",
       "batArm": "R",
@@ -394,7 +394,7 @@
     {
       "id": 24,
       "number": 4,
-      "pictureUrl": "/Images/PlayerPics/24.png",
+      "pictureCls": "/Images/PlayerPics/24.png",
       "playerName": "Pat Valaika",
       "pos": "SS/3B/2B/LF/1B",
       "batArm": "R",
@@ -411,7 +411,7 @@
     {
       "id": 25,
       "number": 19,
-      "pictureUrl": "/Images/PlayerPics/25.png",
+      "pictureCls": "/Images/PlayerPics/25.png",
       "playerName": "Charlie Blackmon",
       "pos": "CF/LF",
       "batArm": "L",
@@ -428,7 +428,7 @@
     {
       "id": 26,
       "number": 20,
-      "pictureUrl": "/Images/PlayerPics/26.png",
+      "pictureCls": "/Images/PlayerPics/26.png",
       "playerName": "Ian Desmond",
       "pos": "LF/CF/1B",
       "batArm": "R",
@@ -445,7 +445,7 @@
     {
       "id": 27,
       "number": 5,
-      "pictureUrl": "/Images/PlayerPics/27.png",
+      "pictureCls": "/Images/PlayerPics/27.png",
       "playerName": "Carlos González",
       "pos": "RF/LF",
       "batArm": "L",
@@ -462,7 +462,7 @@
     {
       "id": 28,
       "number": 8,
-      "pictureUrl": "/Images/PlayerPics/28.png",
+      "pictureCls": "/Images/PlayerPics/28.png",
       "playerName": "Gerardo Parra",
       "pos": "LF/CF/RF/1B",
       "batArm": "L",
@@ -481,7 +481,7 @@
     {
       "id": 17,
       "number": 30,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/17.png\">",
+      "pictureCls": "player-pic-17",
       "playerName": "Ryan Hanigan",
       "pos": "C",
       "batArm": "R",
@@ -498,7 +498,7 @@
     {
       "id": 18,
       "number": 14,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/18.png\">",
+      "pictureCls": "player-pic-18",
       "playerName": "Tony Wolters",
       "pos": "C/2B/3B",
       "batArm": "L",
@@ -515,7 +515,7 @@
     {
       "id": 19,
       "number": 2,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/19.png\">",
+      "pictureCls": "player-pic-19",
       "playerName": "Alexi Amarista",
       "pos": "SS/RF/2B/CF/LF/3B",
       "batArm": "L",
@@ -532,7 +532,7 @@
     {
       "id": 20,
       "number": 28,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/20.png\">",
+      "pictureCls": "player-pic-20",
       "playerName": "Nolan Arenado",
       "pos": "3B",
       "batArm": "R",
@@ -549,7 +549,7 @@
     {
       "id": 21,
       "number": 9,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/21.png\">",
+      "pictureCls": "player-pic-21",
       "playerName": "DJ LeMahieu",
       "pos": "2B/3B",
       "batArm": "R",
@@ -566,7 +566,7 @@
     {
       "id": 22,
       "number": 12,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/22.png\">",
+      "pictureCls": "player-pic-22",
       "playerName": "Mark Reynolds",
       "pos": "1B/3B",
       "batArm": "R",
@@ -583,7 +583,7 @@
     {
       "id": 23,
       "number": 27,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/23.png\">",
+      "pictureCls": "player-pic-23",
       "playerName": "Trevor Story",
       "pos": "SS",
       "batArm": "R",
@@ -600,7 +600,7 @@
     {
       "id": 24,
       "number": 4,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/24.png\">",
+      "pictureCls": "player-pic-24",
       "playerName": "Pat Valaika",
       "pos": "SS/3B/2B/LF/1B",
       "batArm": "R",
@@ -617,7 +617,7 @@
     {
       "id": 25,
       "number": 19,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/25.png\">",
+      "pictureCls": "player-pic-25",
       "playerName": "Charlie Blackmon",
       "pos": "CF/LF",
       "batArm": "L",
@@ -634,7 +634,7 @@
     {
       "id": 26,
       "number": 20,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/26.png\">",
+      "pictureCls": "player-pic-26",
       "playerName": "Ian Desmond",
       "pos": "LF/CF/1B",
       "batArm": "R",
@@ -651,7 +651,7 @@
     {
       "id": 27,
       "number": 5,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/27.png\">",
+      "pictureCls": "player-pic-27",
       "playerName": "Carlos González",
       "pos": "RF/LF",
       "batArm": "L",
@@ -668,7 +668,7 @@
     {
       "id": 28,
       "number": 8,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/28.png\">",
+      "pictureCls": "player-pic-28",
       "playerName": "Gerardo Parra",
       "pos": "LF/CF/RF/1B",
       "batArm": "L",
@@ -685,7 +685,7 @@
     {
       "id": 1,
       "number": 44,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/1.png\">",
+      "pictureCls": "player-pic-1",
       "playerName": "Tyler Anderson",
       "pos": "SP/P",
       "batArm": "L",
@@ -702,7 +702,7 @@
     {
       "id": 2,
       "number": 35,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/2.png\">",
+      "pictureCls": "player-pic-2",
       "playerName": "Chad Bettis",
       "pos": "SP/P",
       "batArm": "R",
@@ -719,7 +719,7 @@
     {
       "id": 3,
       "number": 32,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/3.png\">",
+      "pictureCls": "player-pic-3",
       "playerName": "Tyler Chatwood",
       "pos": "SP/RP/P",
       "batArm": "R",
@@ -736,7 +736,7 @@
     {
       "id": 4,
       "number": 38,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/4.png\">",
+      "pictureCls": "player-pic-4",
       "playerName": "Mike Dunn",
       "pos": "RP/P",
       "batArm": "L",
@@ -753,7 +753,7 @@
     {
       "id": 5,
       "number": 47,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/5.png\">",
+      "pictureCls": "player-pic-5",
       "playerName": "Jairo Díaz",
       "pos": "RP/P",
       "batArm": "R",
@@ -770,7 +770,7 @@
     {
       "id": 6,
       "number": 31,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/None.png\">",
+      "pictureCls": "player-pic-none",
       "playerName": "Kyle Freeland",
       "pos": "SP/P",
       "batArm": "L",
@@ -787,7 +787,7 @@
     {
       "id": 7,
       "number": 55,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/7.png\">",
+      "pictureCls": "player-pic-7",
       "playerName": "Jon Gray",
       "pos": "SP/P",
       "batArm": "R",
@@ -804,7 +804,7 @@
     {
       "id": 8,
       "number": 34,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/8.png\">",
+      "pictureCls": "player-pic-8",
       "playerName": "Jeff Hoffman",
       "pos": "SP/P",
       "batArm": "R",
@@ -821,7 +821,7 @@
     {
       "id": 9,
       "number": 56,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/9.png\">",
+      "pictureCls": "player-pic-9",
       "playerName": "Greg Holland",
       "pos": "RP/P/CL",
       "batArm": "R",
@@ -838,7 +838,7 @@
     {
       "id": 10,
       "number": 24,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/10.png\">",
+      "pictureCls": "player-pic-10",
       "playerName": "Jordan Lyles",
       "pos": "RP/SP/P",
       "batArm": "R",
@@ -855,7 +855,7 @@
     {
       "id": 11,
       "number": 51,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/11.png\">",
+      "pictureCls": "player-pic-11",
       "playerName": "Jake McGee",
       "pos": "RP/P",
       "batArm": "L",
@@ -872,7 +872,7 @@
     {
       "id": 12,
       "number": 48,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/12.png\">",
+      "pictureCls": "player-pic-12",
       "playerName": "German Márquez",
       "pos": "SP/P",
       "batArm": "R",
@@ -889,7 +889,7 @@
     {
       "id": 13,
       "number": 45,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/13.png\">",
+      "pictureCls": "player-pic-13",
       "playerName": "Scott Oberg",
       "pos": "RP/P",
       "batArm": "R",
@@ -906,7 +906,7 @@
     {
       "id": 14,
       "number": 0,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/14.png\">",
+      "pictureCls": "player-pic-14",
       "playerName": "Adam Ottavino",
       "pos": "RP/P",
       "batArm": "S",
@@ -923,7 +923,7 @@
     {
       "id": 15,
       "number": 52,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/15.png\">",
+      "pictureCls": "player-pic-15",
       "playerName": "Chris Rusin",
       "pos": "RP/SP/P",
       "batArm": "L",
@@ -940,7 +940,7 @@
     {
       "id": 16,
       "number": 49,
-      "pictureUrl": "<img src=\"/Images/PlayerPics/16.png\">",
+      "pictureCls": "player-pic-16",
       "playerName": "Antonio Senzatela",
       "pos": "SP/P",
       "batArm": "R",

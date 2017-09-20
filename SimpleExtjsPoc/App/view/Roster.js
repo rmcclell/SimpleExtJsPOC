@@ -28,7 +28,7 @@
     columns: [
         { text: 'Id', dataIndex: 'id', hidden: true, filter: { type: 'string' } },
         { width: 100, text: 'Number', dataIndex: 'number', editor: 'numberfield', filter: { type: 'number' } },
-        { flex: 1.25, text: 'Picture', dataIndex: 'pictureUrl', renderer: function (value) { return Ext.String.format('<img src="{0}">', (Ext.isEmpty(value) ? '/Images/PlayerPics/None.png' : value)); } },
+        { flex: 1.25, text: 'Picture', dataIndex: 'pictureCls', renderer: function (value, metaData) { if (metaData) { metaData.tdCls = value; } return value; } },
         { flex: 1.5, text: 'Player Name', dataIndex: 'playerName', editor: 'textfield', filter: { type: 'string' } },
         { flex: 1.5, text: 'Position(s)', dataIndex: 'pos', editor: { xtype: 'tagfield', store: ['1B', '3B', '2B', 'C', 'CF', 'LF', 'RF', 'RP', 'P', 'CL', 'SP', 'SS'] }, filter: { type: 'list' } },
         { width: 100, text: 'Batting Arm', dataIndex: 'batArm', align: 'center', editor: { xtype: 'combo', store: ['L', 'R', 'S'] }, filter: { type: 'list' } },

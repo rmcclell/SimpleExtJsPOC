@@ -65,12 +65,13 @@
             rowObj = {}
             for (var c = 0; c < columns.length; c++) {
                 if (columns[c].dataIndex) {
-                    rowObj[columns[c].dataIndex] = columns[c].renderer && Ext.isFunction(columns[c].renderer) ? columns[c].renderer(rows[r].get(columns[c].dataIndex)) : rows[r].get(columns[c].dataIndex);
+                    rowObj[columns[c].dataIndex] = columns[c].renderer && Ext.isFunction(columns[c].renderer) ? columns[c].renderer(rows[r].get(columns[c].dataIndex )) : rows[r].get(columns[c].dataIndex);
                 }
             }
             renderedData.push(rowObj);
         }
-
+        console.log(Ext.encode(renderedData));
+        console.log(Ext.encode(data.output));
         expect(Ext.encode(renderedData) === Ext.encode(data.output)).toBeTruthy();
     });
 

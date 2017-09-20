@@ -3,7 +3,7 @@
     fields: [
         { type: 'int', name: 'id' },
         { type: 'int', name: 'number' },
-        { type: 'string', name: 'pictureUrl', critical: false, persist: false },
+        { type: 'string', name: 'pictureCls', mapping: 'id', convert: function (value) { return Ext.String.format('player-pic-{0}', (Ext.isEmpty(value) || value === 6 ? 'none' : value)); }, critical: false, persist: false },
         { type: 'string', name: 'playerName' },
         { type: 'string', name: 'pos' },
         { type: 'string', name: 'batArm', defaultValue: 'R' },
