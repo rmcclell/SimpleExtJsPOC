@@ -1,6 +1,8 @@
 ﻿Ext.define('RosterApp.store.Roster', {
-    extend: 'Ext.data.Store',
+    extend: 'Ext.data.BufferedStore',
     storeId: 'roster',
+    remoteGroup: false,
+    pageSize: 10,
     alias: 'store.roster',
     groupField: 'category',
     requires: [

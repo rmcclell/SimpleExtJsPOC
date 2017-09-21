@@ -9,7 +9,10 @@
         itemId: 'add',
         iconCls: 'x-fa fa-plus green'
     }],
-    selModel: 'rowmodel',
+    selModel: {
+        selType: 'rowmodel',
+        pruneRemoved: false
+    },
     plugins: [{
         ptype: 'gridfilters'
     }, {

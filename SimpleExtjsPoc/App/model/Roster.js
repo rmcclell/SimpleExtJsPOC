@@ -21,7 +21,9 @@
         type: 'rest',
         url: window.location.protocol + '//' + window.location.host + '/api/Roster',
         noCache: false,
-        reader: { type: 'json' },
+        simpleGroupMode: true,
+        simpleSortMode: true,
+        reader: { type: 'json', rootProperty: 'items', totalProperty: 'totalCount' },
         writer: { type: 'json', allowSingle: true }
     }
 });

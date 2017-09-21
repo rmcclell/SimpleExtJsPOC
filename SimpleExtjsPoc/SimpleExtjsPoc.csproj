@@ -180,6 +180,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\PageModel.cs" />
     <Compile Include="Models\Roster.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

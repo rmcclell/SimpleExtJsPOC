@@ -12,9 +12,10 @@ namespace SimpleExtjsPoc.Controllers
     {
         private SimpleExtJsPocEntities db = new SimpleExtJsPocEntities();
         // GET: api/Roster
-        public List<Roster> Get()
+        public PageModel<Roster> Get(int page, int start, int limit)
         {
-            return db.Roster.ToList();
+            return new PageModel<Roster>(db.Roster.OrderBy(r => r.id), page, limit);
+            //return db.Roster.OrderBy(r => r.id).Skip(start).Take(limit).ToList();
         }
 
         // GET: api/Roster/5
