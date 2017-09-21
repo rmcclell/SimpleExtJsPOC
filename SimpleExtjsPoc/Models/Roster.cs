@@ -16,7 +16,7 @@ namespace SimpleExtjsPoc.Models
     {
         public int id { get; set; }
         public Nullable<short> number { get; set; }
-        public string pictureUrl { get; set; }
+        public string pictureCls { get; set; }
         public string playerName { get; set; }
         public string pos { get; set; }
         public string batArm { get; set; }

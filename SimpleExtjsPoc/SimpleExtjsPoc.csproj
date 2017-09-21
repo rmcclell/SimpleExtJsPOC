@@ -170,6 +170,8 @@
     <Content Include="UnitTests\spec\ExtJsTest.js" />
     <Content Include="UnitTests\spec\Roster.js" />
     <Content Include="Utilities\Sql\CreateDb.sql" />
+    <Content Include="Utilities\Sql\CreateTable.sql" />
+    <Content Include="Utilities\Sql\InsertRows.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

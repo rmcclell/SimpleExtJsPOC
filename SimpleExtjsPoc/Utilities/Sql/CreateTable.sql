@@ -10,7 +10,7 @@ GO
 CREATE TABLE [dbo].[Roster](
 	[id] [int] IDENTITY(1,1),
 	[number] [smallint] NULL,
-	[pictureUrl] [varchar](50) NULL,
+	[pictureCls] [varchar](50) NULL,
 	[playerName] [nvarchar](50) NULL,
 	[pos] [varchar](20) NULL,
 	[batArm] [char](1) NULL,
