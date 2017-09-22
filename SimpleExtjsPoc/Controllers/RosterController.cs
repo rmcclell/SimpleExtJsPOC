@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Linq.Expressions;
 using SimpleExtjsPoc.Models;
 
 namespace SimpleExtjsPoc.Controllers
@@ -11,11 +12,11 @@ namespace SimpleExtjsPoc.Controllers
     public class RosterController : ApiController
     {
         private SimpleExtJsPocEntities db = new SimpleExtJsPocEntities();
+        
         // GET: api/Roster
-        public PageModel<Roster> Get(int page, int start, int limit)
+        public PageModel<Roster> Get(int page, int limit, string sort = null, string dir = null, string group = null, string groupDir = null)
         {
-            return new PageModel<Roster>(db.Roster.OrderBy(r => r.id), page, limit);
-            //return db.Roster.OrderBy(r => r.id).Skip(start).Take(limit).ToList();
+            return new PageModel<Roster>(db.Roster.OrderBy(g => g.category), page, limit, sort, dir);
         }
 
         // GET: api/Roster/5

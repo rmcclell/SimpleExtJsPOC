@@ -1,6 +1,5 @@
 ﻿describe('Roster Assumptions', function () {
-    var viewPort = null,
-        grid = null,
+    var grid = null,
         addButton = null,
         data = null,
         store = null;
@@ -9,11 +8,10 @@
 
         var isDone = done;
 
-        viewPort = Ext.create('RosterApp.view.Viewport', {
+        grid = Ext.create('RosterApp.view.Roster', {
             renderTo: Ext.getBody()
         });
 
-        grid = viewPort.down('grid');
         store = grid.getStore();
 
         store.setProxy({ type: 'memory' });
@@ -22,7 +20,7 @@
             url: '/UnitTests/mock/Roster.json',
             success: function (response) {
                 data = Ext.decode(response.responseText);
-                store.loadRawData(data.input);
+                store.loadRawData(data.input.items);
                 addButton = grid.down('button#add');
                 isDone();
             }
@@ -31,12 +29,8 @@
     });
 
     afterAll(function () {
-        Ext.destroy(viewPort);
-        viewPort = null;
-    });
-
-    it('View Port Created', function () {
-        expect(viewPort !== null).toBeTruthy();
+        Ext.destroy(grid);
+        grid = null;
     });
 
     it('Roster View Rendered', function () {
@@ -48,7 +42,7 @@
     });
 
     it('Roster Count Matches', function () {
-        expect(store.getCount() === 28).toBeTruthy();
+        expect(store.getTotalCount() === 28).toBeTruthy();
     });
 
     it('Roster View must have correct groups', function () {
@@ -70,8 +64,6 @@
             }
             renderedData.push(rowObj);
         }
-        console.log(Ext.encode(renderedData));
-        console.log(Ext.encode(data.output));
         expect(Ext.encode(renderedData) === Ext.encode(data.output)).toBeTruthy();
     });
 

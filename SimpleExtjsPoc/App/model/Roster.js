@@ -1,5 +1,6 @@
 ﻿Ext.define('RosterApp.model.Roster', {
     extend: 'Ext.data.Model',
+    idProperty: 'id',
     fields: [
         { type: 'int', name: 'id' },
         { type: 'int', name: 'number' },
@@ -23,6 +24,7 @@
         noCache: false,
         simpleGroupMode: true,
         simpleSortMode: true,
+        startParam: '',
         reader: { type: 'json', rootProperty: 'items', totalProperty: 'totalCount' },
         writer: { type: 'json', allowSingle: true }
     }

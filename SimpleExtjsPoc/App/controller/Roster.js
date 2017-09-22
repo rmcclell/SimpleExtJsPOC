@@ -23,7 +23,12 @@
         });
     },
     launch: function (grid) {
-        grid.getStore().load();
+        grid.getStore().load({
+            params: {
+                page: 1,
+                limit: 28
+            }
+        });
     },
     onEditRow: function (view, rowIndex, colIndex, item, e, record, row) {
         view.editingPlugin.startEdit(rowIndex, 0);
