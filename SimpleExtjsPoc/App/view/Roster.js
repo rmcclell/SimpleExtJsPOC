@@ -34,10 +34,10 @@
     },
     columns: [
         { text: 'Id', dataIndex: 'id', hidden: true, filter: { type: 'string' } },
-        { width: 100, text: 'Number', dataIndex: 'number', editor: 'numberfield', filter: { type: 'number' } },
-        { flex: 1, text: 'Picture', dataIndex: 'pictureCls', renderer: function (value, metaData) { if (metaData) { metaData.tdCls = value; } return value; }, editRenderer: function (value) { return Ext.String.format('<div class="{0}"></div>', value); } },
+        { width: 90, style: 'text-align:right;', align: 'right', text: 'Number', dataIndex: 'number', editor: 'numberfield', filter: { type: 'number' } },
+        { width: 100, text: 'Picture', dataIndex: 'pictureCls', renderer: function (value, metaData) { if (metaData) { metaData.tdCls = value; } return value; }, editRenderer: function (value) { return Ext.String.format('<div class="{0}"></div>', value); } },
         { flex: 1, text: 'Player Name', cellWrap: true, dataIndex: 'playerName', editor: 'textfield', filter: { type: 'string' } },
-        { flex: 1, text: 'Position(s)', cellWrap: true, dataIndex: 'pos', editor: { xtype: 'tagfield', grow: true, growMax: 80, hideTrigger: true, delimiter: '/', store: ['1B', '3B', '2B', 'C', 'CF', 'LF', 'RF', 'RP', 'P', 'CL', 'SP', 'SS'] }, filter: { type: 'list' } },
+        { flex: 1, text: 'Position(s)', cellWrap: true, dataIndex: 'pos', renderer: function (value) { return value.replace(/\//gi, ' / '); }, editor: { xtype: 'tagfield', grow: true, growMax: 80, hideTrigger: true, delimiter: '/', store: ['1B', '3B', '2B', 'C', 'CF', 'LF', 'RF', 'RP', 'P', 'CL', 'SP', 'SS'] }, filter: { type: 'list' } },
         {
             width: 160, text: 'Arms', columns: [{ width: 80, text: 'Batting', dataIndex: 'batArm', align: 'center', editor: { xtype: 'combo', store: ['L', 'R', 'S'] }, filter: { type: 'list', options: ['R', 'L', 'S'] } },
             { width: 80, text: 'Throw', dataIndex: 'throwArm', align: 'center', editor: { xtype: 'combo', store: ['L', 'R', 'S'] }, filter: { type: 'list', options: ['R', 'L', 'S'] } }] },
@@ -49,7 +49,7 @@
         { flex: 2, text: 'Birthplace', dataIndex: 'birthplace', editor: 'textfield', filter: { type: 'string' } },
         { flex: 1, text: 'College', dataIndex: 'college', editor: { xtype: 'combo', store: ['Connecticut', 'East Carolina', 'Evansville', 'Georgia Tech', 'Kentucky', 'LSU', 'None', 'Northeastern', 'Oklahoma', 'Oregon', 'Rollins', 'Southern Nevada CC', 'Texas Tech', 'UCLA', 'Virginia', 'Western Carolina'] }, filter: { type: 'list' } },
         { flex: 1, text: 'Salary', dataIndex: 'salary', style: 'text-align:right;', align: 'right', editor: 'numberfield', formatter: 'currency', filter: { type: 'number' } },
-        { flex: 1, text: 'Category', dataIndex: 'category', editor: { xtype: 'combo', store: ['Catchers', 'Pitchers', 'Infielders', 'Outfielders'] }, filter: { type: 'list' } },
+        { width: 100, text: 'Category', dataIndex: 'category', editor: { xtype: 'combo', store: ['Catchers', 'Pitchers', 'Infielders', 'Outfielders'] }, filter: { type: 'list' } },
         {
             xtype: 'actioncolumn',
             width: 50, menuDisabled: true,
