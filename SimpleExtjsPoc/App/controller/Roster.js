@@ -35,7 +35,7 @@
     },
     onDeleteRow: function (view, rowIndex, colIndex, item, e, record, row) {
         var store = view.getStore();
-        Ext.Msg.show({
+        return Ext.Msg.show({
             title: 'Confirm Delete',
             message: 'Are you sure you would like to delete the current row?',
             buttons: Ext.Msg.YESNO,
@@ -57,6 +57,7 @@
         var store = grid.getStore();
         var record = store.add({});
         var rowIdx = store.indexOf(record[0]);
+        record[0].phantom = true;
         grid.editingPlugin.startEdit(rowIdx, 0);
     }
 });
