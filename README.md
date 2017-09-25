@@ -13,8 +13,13 @@ This simple project was designed to quickly demo how to fully integrate Sencha E
 - Open Soluction file in Visual Studio
 - Start Up Application
 
+## Steps to run Jasmine tests
+- Run startup procedure above
+- Append UnitTests/Index.html on to the started url IE http://localhost:52948/UnitTests/Index.html
+
 ## Included with Project
 - Simple CRUD Rest services using Web API and Entity Framework
 - SQL Files to build small sample dataset
 - Single page application using MVC in Sencha ExtJs with single view
 - Single view uses built in row editing, filtering, sorting and grouping to create, read, update and delete the data in SQL table
+- Simple Jasmine Unit tests that test all crud operation from UI create, read, update, and delete
