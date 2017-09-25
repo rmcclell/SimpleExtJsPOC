@@ -2,7 +2,7 @@
     var application = null;
 
     beforeAll(function () {
-        application = RosterApp.getApplication();
+        application = App.getApplication();
     });
 
     it('ExtJS framework is loaded and ready', function () {

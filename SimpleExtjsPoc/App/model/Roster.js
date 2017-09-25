@@ -1,4 +1,4 @@
-﻿Ext.define('RosterApp.model.Roster', {
+﻿Ext.define('App.model.Roster', {
     extend: 'Ext.data.Model',
     idProperty: 'id',
     fields: [

@@ -1,0 +1,19 @@
+[
+  {
+    "outputFileName": "App/Application.min.js",
+    "inputFiles": [
+      "App/model/Roster.js",
+      "App/store/Roster.js",
+      "App/view/Roster.js",
+      "App/view/Viewport.js",
+      "App/controller/Roster.js",
+      "App/Application.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/CustomTheme.min.css",
+    "inputFiles": [
+      "Content/CustomTheme.css"
+    ]
+  }
+]

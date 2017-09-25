@@ -1,4 +1,4 @@
-﻿Ext.define('RosterApp.store.Roster', {
+﻿Ext.define('App.store.Roster', {
     extend: 'Ext.data.Store',
     storeId: 'roster',
     pageSize: 28,
@@ -8,8 +8,8 @@
     alias: 'store.roster',
     groupField: 'category',
     requires: [
-        'RosterApp.model.Roster'
+        'App.model.Roster'
     ],
     autoLoad: false,
-    model: 'RosterApp.model.Roster'
+    model: 'App.model.Roster'
 });

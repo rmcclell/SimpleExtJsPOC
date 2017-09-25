@@ -9,7 +9,7 @@
 
         var isDone = done;
 
-        grid = Ext.create('RosterApp.view.Roster', {
+        grid = Ext.create('App.view.Roster', {
             renderTo: Ext.getBody()
         });
 

@@ -1,4 +1,4 @@
-﻿Ext.define('RosterApp.controller.Roster', {
+﻿Ext.define('App.controller.Roster', {
     extend: 'Ext.app.Controller',
     refs: [{
         ref: 'viewport',

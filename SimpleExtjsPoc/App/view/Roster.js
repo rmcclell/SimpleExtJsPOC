@@ -1,4 +1,4 @@
-﻿Ext.define('RosterApp.view.Roster', {
+﻿Ext.define('App.view.Roster', {
     extend: 'Ext.grid.Panel',
     title: 'Roster',
     alias: 'widget.roster',

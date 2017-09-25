@@ -1,8 +1,8 @@
 ﻿Ext.application({
-    name: 'RosterApp',
+    name: 'App',
     autoCreateViewport: true,
     controllers: [
-        'RosterApp.controller.Roster'
+        'App.controller.Roster'
     ],
     launch: function () {
         Ext.util.Format.currencyPrecision = 0;

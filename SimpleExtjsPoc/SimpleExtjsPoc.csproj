@@ -111,7 +111,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="App\Application.min.js">
+      <DependentUpon>Application.js</DependentUpon>
+    </Content>
     <Content Include="Content\customTheme.css" />
+    <Content Include="Content\CustomTheme.min.css">
+      <DependentUpon>customTheme.css</DependentUpon>
+    </Content>
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Global.asax" />
@@ -144,6 +150,8 @@
     <Content Include="Images\PlayerPics\9.png" />
     <Content Include="Images\PlayerPics\team.png" />
     <Content Include="Images\PlayerPics\None.png" />
+    <None Include="bundleconfig.json" />
+    <Content Include="Images\PlayerPics\Web.config" />
     <None Include="LICENSE" />
     <Content Include="Models\Roster.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
