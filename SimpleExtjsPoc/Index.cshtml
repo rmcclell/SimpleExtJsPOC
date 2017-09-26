@@ -1,17 +1,19 @@
 ﻿@{
     Layout = null;
+    var Debug = HttpContext.Current.IsDebuggingEnabled ? "" : ".min";
 }
 <!DOCTYPE html>
 <html>
 <head>
     <title>2017 Colorado Rockies Roster</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all.css">
-    <link href="~/Content/customTheme.min.css" rel="stylesheet" />
+    <link href="~/Content/customTheme@(Debug).css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all_1.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/resources/theme-triton-all_2.css">
 </head>
 <body>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-triton/theme-triton.js"></script>
-<script type="text/javascript" src="~/App/Application.min.js"></script>
+<script type="text/javascript" src="~/App/Application@(Debug).js"></script>
 </body>
 </html>
